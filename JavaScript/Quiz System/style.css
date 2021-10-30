@@ -1,0 +1,44 @@
+.btn-close:focus {
+    box-shadow: none;
+}
+
+label {
+    display: inline;
+}
+
+.form-check {
+    padding: 0;
+}
+
+.text-white-50 {
+    display: flex;
+    align-items: baseline;
+}
+
+input {
+    margin-right: 0.7rem;
+}
+
+.pop-up {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    position: absolute;
+    right: 20;
+    top: 10;
+    cursor: pointer;
+}
+
+.pop-up__info {
+    max-height: 150px;
+    background-color: rgb(225, 225, 233);
+    max-width: 300px;
+    margin: 10rem 0 0 0;
+    padding: 3rem;
+    position: relative;
+}
